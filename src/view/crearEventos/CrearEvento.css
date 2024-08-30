@@ -1,0 +1,52 @@
+.crear-evento-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.crear-evento-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.crear-evento-container form div {
+    margin-bottom: 15px;
+}
+
+.crear-evento-container form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.crear-evento-container form input,
+.crear-evento-container form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.crear-evento-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.crear-evento-container form button:hover {
+    background-color: #0056b3;
+}
+
+.crear-evento-container p {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+}
