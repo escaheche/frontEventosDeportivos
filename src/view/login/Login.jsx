@@ -97,12 +97,14 @@ export const Login = () => {
                 ) : (
                     <>
                         <input
+                            id='email'
                             type="email"
                             placeholder="Correo"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                         />
                         <input
+                            id='password'
                             type="password"
                             placeholder="Contraseña"
                             value={password}
